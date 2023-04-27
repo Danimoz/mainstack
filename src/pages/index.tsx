@@ -8,19 +8,19 @@ import axios from 'axios';
 export default function Home() {
   const links = {
     '': [
-      { href: '#', label:'Dashboard', icon:faCalendar },
-      { href: '#', label:'Item 1', icon:faCalendar },
-      { href: '#', label:'Item 2', icon:faCalendar },
-      { href: '#', label:'Item 3', icon:faCalendar },
+      { href: '#dash', label:'Dashboard', icon:faCalendar },
+      { href: '#item', label:'Item 1', icon:faCalendar },
+      { href: '#item2', label:'Item 2', icon:faCalendar },
+      { href: '#ite,3', label:'Item 3', icon:faCalendar },
     ],
     'OTHERS 1': [
-      { href: '#', label:'Item 4', icon:faClock },
-      { href: '#', label:'Item 5', icon:faClock }
+      { href: '#item4', label:'Item 4', icon:faClock },
+      { href: '#item5', label:'Item 5', icon:faClock }
     ],
     'OTHERS 2': [
-      { href: '#', label:'Item 6', icon:faUser },
-      { href: '#', label:'Item 7', icon:faUser },
-      { href: '#', label:'Item 8', icon:faUser }
+      { href: '#item6', label:'Item 6', icon:faUser },
+      { href: '#item7', label:'Item 7', icon:faUser },
+      { href: '#item8', label:'Item 8', icon:faUser }
     ]
   }
   const days = ['1 Day', '3 Days', '7 Days', '30 Days', 'All Time', 'Custom Date']
