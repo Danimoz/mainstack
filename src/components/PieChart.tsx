@@ -29,7 +29,7 @@ function PieChart({ list, count, percent, bgColors }: PieChartProps): JSX.Elemen
     <div className="flex gap-6 mt-9">
       <div>
       {list.map((item, index) => (
-        <div className="flex mb-2 items-center">
+        <div key={index} className="flex mb-2 items-center">
           <h4>{capitalize(item)} <span className="font-bold">{percent[index]}%</span></h4>
           <span style={{backgroundColor: bgColors[index]}} className={`ml-4 w-[12px] h-[12px] border rounded-[50%] text-2xl`}></span>
         </div>
